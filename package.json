@@ -48,12 +48,13 @@
     "typescript": "^5"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
+    "*.{js,ts,jsx,tsx}": [
       "eslint --fix",
-      "prettier --config ./.prettierrc.js --write"
+      "eslint",
+      "prettier --write"
     ],
-    "**/*.{css,scss,md,html,json}": [
-      "prettier --config ./.prettierrc.js --write"
+    "*.json": [
+      "prettier --write"
     ]
   },
   "config": {
