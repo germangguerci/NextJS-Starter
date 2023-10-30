@@ -1,1 +1,14 @@
-{}
+{
+  "Home": {
+    "getStarted": "Get started by editing",
+    "by": "By",
+    "docs": "Docs",
+    "find": "Find in-depth information about Next.js features and API.",
+    "learn": "Learn",
+    "learnAbout": "Learn about Next.js in an interactive course with&nbsp;quizzes!",
+    "templates": "Templates",
+    "explore": "Explore the Next.js 13 playground.",
+    "deploy": "Deploy",
+    "instantly": "Instantly deploy your Next.js site to a shareable URL with Vercel."
+  }
+}
