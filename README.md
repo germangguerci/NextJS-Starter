@@ -28,7 +28,7 @@ This starter is designed with transparency in mind. Everything is open and custo
 
 ## Requirements
 
-- Node.js 16+
+- Node.js 18+
 - npm
 
 ## Getting Started
