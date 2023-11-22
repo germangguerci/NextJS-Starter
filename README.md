@@ -4,7 +4,7 @@ A powerful Next.js starter with a focus on developer experience, tailored for yo
 
 ## Features
 
-- ⚡ Next.js 13.5 with App Router 
+- ⚡ Next.js 14 with App Router 
 - 🌐 Internationalization (i18n) with next-intl for translation
 - 🔥 Type checking TypeScript
 - 💎 Integration with Tailwind CSS
@@ -28,7 +28,7 @@ This starter is designed with transparency in mind. Everything is open and custo
 
 ## Requirements
 
-- Node.js 18+
+- Node.js >= 18.17
 - npm
 
 ## Getting Started
