@@ -14,11 +14,14 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
     "next": "^14.0.3",
-    "next-intl": "^2.20.2",
+    "next-intl": "^2.22.1",
     "next-sitemap": "^4.2.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.8.0",
