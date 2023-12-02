@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import { useRouter, usePathname } from "next-intl/client";
-import { useLocale } from "next-intl";
+import { useRouter, usePathname } from 'next-intl/client';
+import { useLocale } from 'next-intl';
 
-import { useState } from "react";
+import { useState } from 'react';
 
 export default function LanguageSelect() {
   const router = useRouter();
   const pathName = usePathname();
   const locale = useLocale();
-  const [selectedLanguage, setSelectedLanguage] = useState(locale || "en");
+  const [selectedLanguage, setSelectedLanguage] = useState(locale || 'en');
 
   const handleLanguageChange = (event: any) => {
     event.preventDefault();

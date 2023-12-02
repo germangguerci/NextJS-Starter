@@ -1,7 +1,7 @@
-"use server";
+'use server';
 
-import type { z } from "zod";
-import { FormDataSchema } from "./schema";
+import type { z } from 'zod';
+import { FormDataSchema } from './schema';
 
 type Inputs = z.infer<typeof FormDataSchema>;
 

@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import type { SubmitHandler } from "react-hook-form";
-import { useForm } from "react-hook-form";
+import { useState } from 'react';
+import type { SubmitHandler } from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 
-import { zodResolver } from "@hookform/resolvers/zod";
-import type { z } from "zod";
-import { addEntry } from "app/lib/actions";
-import { FormDataSchema } from "app/lib/schema";
+import { zodResolver } from '@hookform/resolvers/zod';
+import type { z } from 'zod';
+import { addEntry } from 'app/lib/actions';
+import { FormDataSchema } from 'app/lib/schema';
 
 type Inputs = z.infer<typeof FormDataSchema>;
 
@@ -27,7 +27,7 @@ export default function ExampleForm() {
     const result = await addEntry(formData);
 
     if (!result) {
-      console.log("Something went wrong");
+      console.log('Something went wrong');
       return;
     }
 
@@ -50,7 +50,7 @@ export default function ExampleForm() {
         <input
           placeholder="name"
           className="h-10 rounded-lg p-4"
-          {...register("name")}
+          {...register('name')}
         />
         {errors.name?.message && (
           <p className="text-sm text-red-400">{errors.name.message}</p>
@@ -59,7 +59,7 @@ export default function ExampleForm() {
         <input
           placeholder="message"
           className="h-10 rounded-lg p-4"
-          {...register("message")}
+          {...register('message')}
         />
         {errors.message?.message && (
           <p className="text-sm text-red-400">{errors.message.message}</p>
