@@ -5,7 +5,6 @@ A powerful Next.js starter with a focus on developer experience, tailored for yo
 ## Features
 
 - ⚡ Next.js 14 with App Router 
-- 🌐 Internationalization (i18n) with next-intl for translation
 - ✅ Zod for validation
 - 📝 React Hook Forms for form handling
 - 🔥 Type checking TypeScript
