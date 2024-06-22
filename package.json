@@ -1,6 +1,6 @@
 {
   "name": "next-starter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "gguerci(https://github.com/germangguerci)",
   "private": true,
   "scripts": {
@@ -9,8 +9,8 @@
     "commit": "git-cz",
     "start": "next start",
     "lint": "next lint",
-    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
-    "prepare": "husky install"
+    "format": "next lint --fix && prettier '**/*.{json,yaml,tsx}' --write --ignore-path .gitignore",
+    "prepare": "husky"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",
